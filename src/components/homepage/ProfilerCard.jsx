@@ -3,7 +3,7 @@ import ImgDev from '../../../public/images/believe.png'
 
 function ProfilerCard() {
   return (
-    <div className="bg-red-500 w-[50%] p-4 rounded-lg shadow-lg">
+    <div className="bg-red-500  p-4 rounded-lg shadow-lg">
         <div>
             <img src={ImgDev} alt="nos développeurs" className="w-[40rem] rounded-lg mx-auto" />
         </div>

@@ -5,8 +5,13 @@ import ProfilerCard from './ProfilerCard'
 function YoursAvantages() {
   return (
     <section className='bg-gray-50 flex flex-col justify-between gap-5   lg:flex-row  px-8 py-6 lg:px-16 lg:py-10'>
-        <div className='lg:w-1/2'>
-            <ProfilerCard />
+        <div className='w-1/2 flex flex-row gap-1'>
+            <span className='mt-20 -ml-5 '>
+                <ProfilerCard />
+            </span>
+            <span className=' '>
+                <ProfilerCard />
+            </span>
         </div>
         
         <div className='lg:w-1/2'>
