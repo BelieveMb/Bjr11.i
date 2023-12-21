@@ -4,12 +4,12 @@ import ProfilerCard from './ProfilerCard'
 
 function YoursAvantages() {
   return (
-    <section className='bg-gray-50 flex flex-col justify-between gap-5   lg:flex-row  px-8 py-6 lg:px-16 lg:py-10'>
-        <div className='w-1/2 flex flex-row gap-1'>
-            <span className='mt-20 -ml-5 '>
+    <section className='bg-gray-50 flex flex-col-reverse justify-between gap-5   lg:flex-row  px-8 py-6 lg:px-16 lg:py-10'>
+        <div className='w-full  flex flex-col gap-y-4 lg:gap-x-1 lg:w-1/2 lg:flex-row'>
+            <span className='mt-20 lg:-ml-5 '>
                 <ProfilerCard />
             </span>
-            <span className=' '>
+            <span className=' ml-0'>
                 <ProfilerCard />
             </span>
         </div>
