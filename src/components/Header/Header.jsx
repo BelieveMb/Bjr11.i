@@ -11,7 +11,7 @@ function Header() {
 
 
   return (
-    <div className="bg-gray-200 flex flex-wrap justify-between items-center  py-2 px-3 border-b-2 border-red-500 lg:px-10">
+    <div className="bg-gray-200 flex flex-wrap justify-between items-center  py-2 px-3 border-b-2 border-red-500 lg:px-14">
       <div>
         <img src={logoBjr} alt="logo"  className=' w-[6rem] lg:w-16' />
       </div>
