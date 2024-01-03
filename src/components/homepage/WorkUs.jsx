@@ -1,7 +1,16 @@
 import React from 'react'
+import LogoText from './LogoText'
 import ImgDev from '../../../public/images/pc3.png'
 import logoPhp from '../../../public/images/php.png'
 import logoLaravel from '../../../public/images/laravel.png'
+import logoJs from '../../../public/images/js.png'
+import logoVue from '../../../public/images/vue.png'
+import logoReact from '../../../public/images/react.png'
+import logoMySql from '../../../public/images/mysql.png'
+import logoMongo from '../../../public/images/mongo.png'
+import logoNode from '../../../public/images/node.png'
+import logoJava from '../../../public/images/java.png'
+import logoNoe from '../../../public/images/neo.png'
 
 
 
@@ -44,12 +53,20 @@ function WorkUs() {
             </div>
         </div>
 
-        <div className='text-gray-700'>
-          <h2 className='text-3xl lg:text-5xl text-center text-gray-700 font-semibold mb-3'>Notre expertises</h2>
+        <div className='text-gray-700 py-16 lg:py-20 '>
+          <h2 className='text-3xl lg:text-5xl text-center text-gray-700 font-semibold mb-3'>Nos expertises</h2>
 
-          <div className="flex flex-row  items-center px-8 py-6 lg:px-16 lg:py-20 ">
-            <LogoText logo={logoPhp} textBottom={'Php'} />
-            <LogoText logo={logoLaravel} textBottom={'Laravel'} />
+          <div className="flex flex-row flex-wrap  justify-center items-center px-8 py-6 gap-4 lg:gap-10 lg:px-16 lg:py-10 ">
+            <LogoText logo={logoPhp} textBottom='Php' />
+            <LogoText logo={logoLaravel} textBottom='Laravel' />
+            <LogoText logo={logoJs} textBottom='Javascript' />
+            <LogoText logo={logoVue} textBottom='Vue JS' />
+            <LogoText logo={logoReact} textBottom='React JS' />
+            <LogoText logo={logoMySql} textBottom='MySql' />
+            <LogoText logo={logoMongo} textBottom='MongoDB' />
+            <LogoText logo={logoNode} textBottom='Node JS' />
+            <LogoText logo={logoJava} textBottom='Java ' />
+            <LogoText logo={logoNoe} textBottom='Neo4j' />
             
           </div>
 
