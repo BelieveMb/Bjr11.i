@@ -30,7 +30,7 @@ function Footer() {
 
         </div>
         <div className="flex flex-col justify-between text-gray-50 lg:flex-row mt-10">
-            <p>KADEA © 2023 Tous droits réservés</p>
+            <p className='text-center lg:text-left'>KADEA © 2023 Tous droits réservés</p>
             <p className='flex flex-row gap-4 justify-center items-center text-red-500 text-right'>
                 <a href="" className='hover:text-red-500 hover:font-bold'> <i className="bi bi-facebook"></i> </a>
                 <a href="" className='hover:text-red-500 hover:font-bold'> <i className="bi bi-twitter"></i> </a>
