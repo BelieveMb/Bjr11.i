@@ -5,6 +5,7 @@ import Paterners from '../components/homepage/Paterners'
 import YoursAvantages from '../components/homepage/YoursAvantages'
 import WorkUs from '../components/homepage/WorkUs'
 import TakeDevelopper from '../components/homepage/TakeDevelopper'
+import CallUs from '../components/homepage/CallUs'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
             <YoursAvantages />
             <WorkUs />
             <TakeDevelopper />
+            <CallUs />
 
         </main>
     </>
