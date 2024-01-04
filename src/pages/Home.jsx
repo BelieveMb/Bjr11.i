@@ -6,6 +6,7 @@ import YoursAvantages from '../components/homepage/YoursAvantages'
 import WorkUs from '../components/homepage/WorkUs'
 import TakeDevelopper from '../components/homepage/TakeDevelopper'
 import CallUs from '../components/homepage/CallUs'
+import Footer from '../components/homepage/Footer'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
             <WorkUs />
             <TakeDevelopper />
             <CallUs />
+            <Footer />
 
         </main>
     </>

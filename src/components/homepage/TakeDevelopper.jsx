@@ -27,7 +27,7 @@ function TakeDevelopper() {
       <h2 className='text-4xl lg:text-6xl lg:w-[60%]  text-gray-300 font-semibold mb-16'>Embauchez le développeur idéal pour votre équipe  </h2>
 
         <div className="flex flex-col content-start items-start gap-10 lg:flex-row ">
-          <div className="flex flex-col gap-6 text-3xl  text-gray-500 w-[50%]  cursor-pointer">
+          <div className="flex flex-col gap-6 text-2xl lg:text-3xl  text-gray-500 w-full lg:w-[50%]  cursor-pointer">
             <h3 className={"flex flex-row gap-4  " + (title=== 1 ? "text-gray-50" : null)}   onClick={()=> setTitle(1)} >
               <i className= {"  " + ( title === 1 ? "bi bi-circle-fill  " : " bi bi-circle") }></i>Comprendre vos besoins
             </h3>
@@ -38,7 +38,7 @@ function TakeDevelopper() {
               <i className={"  " + ( title === 3 ? "bi bi-circle-fill  ": " bi bi-circle") }></i>Onboarding
             </h3>
             <div className="hidden lg:flex mt-5" >
-              <Buttons  />
+              <Buttons textContent="Renforcer votre équipe"  />
             </div>
           </div>
 
