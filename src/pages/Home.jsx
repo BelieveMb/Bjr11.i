@@ -4,6 +4,7 @@ import HeroSection from '../components/homepage/HeroSection'
 import Paterners from '../components/homepage/Paterners'
 import YoursAvantages from '../components/homepage/YoursAvantages'
 import WorkUs from '../components/homepage/WorkUs'
+import TakeDevelopper from '../components/homepage/TakeDevelopper'
 
 function Home() {
   return (
@@ -14,9 +15,12 @@ function Home() {
             <Paterners />
             <YoursAvantages />
             <WorkUs />
+            <TakeDevelopper />
+
         </main>
     </>
   )
 }
+
 
 export default Home
